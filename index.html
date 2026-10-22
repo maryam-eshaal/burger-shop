@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stackhouse Burgers – Order online</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <div><h1>Stackhouse<br>Burgers</h1><p>Smashed to order. Ready in about 15 minutes.</p></div>
+  <span class="status">Open until 11 pm</span>
+</div></header>
+
+<main>
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <section id="menu" aria-live="polite"></section>
+</main>
+
+<div class="bar"><button id="openCart" disabled><span id="cartCount">Your order is empty</span><span id="cartTotal"></span></button></div>
+
+<dialog id="cartDlg"><div class="sheet" id="cartBody"></div></dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
